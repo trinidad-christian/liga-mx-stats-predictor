@@ -13,7 +13,7 @@ async def get_player_stats_by_name(name: str):
 
 if __name__ == "__main__":
     async def main():
-        data = await get_player_stats_by_name("Gignac")  # You can try Chicharito, Quinones, etc.
+        data = await get_player_stats_by_name("André-Pierre Gignac")
         print(json.dumps(data, indent=4))
 
     asyncio.run(main())
